@@ -12,3 +12,39 @@ img,
 video {
   display: block;
 }
+
+body {
+  font-family: Roboto, sans-serif;
+  padding: 40px;
+}
+
+.like-btn {
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border: 2px solid red;
+  border-radius: 30px;
+  background: white;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+.count {
+  color: black;
+  font-weight: 400;
+}
+
+.like-btn i {
+  font-size: 18px;
+}
+
+.like-btn.active {
+  background: red;
+  color: white;
+}
+
+.like-btn.active i {
+  color: white;
+}
